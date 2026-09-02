@@ -72,6 +72,18 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
 .contact-data { font-size: 12px; line-height: 1.8; margin: 0; }
 .site-footer { display: flex; font-size: 10px; justify-content: space-between; letter-spacing: .08em; padding: 25px max(5vw, calc((100% - 1120px) / 2)); text-transform: uppercase; }
 .site-footer a { color: var(--terracotta); }
+.privacy-main { margin: 0 auto; max-width: 1120px; padding: 90px 5vw 125px; }
+.privacy-heading { border-bottom: 1px solid var(--line); padding-bottom: 70px; }
+.privacy-heading h1 { font-size: clamp(3.5rem, 7vw, 6.3rem); margin-bottom: 28px; }
+.privacy-updated { color: var(--muted); font-size: 13px; margin: 0; }
+.privacy-content { margin: 70px auto 0; max-width: 760px; }
+.privacy-content h2 { font-size: clamp(1.75rem, 3vw, 2.45rem); margin: 58px 0 18px; }
+.privacy-content h2:first-of-type { margin-top: 0; }
+.privacy-content p, .privacy-content li { color: #555850; font-size: 15px; }
+.privacy-content ul { padding-left: 22px; }
+.privacy-content li { margin-bottom: 9px; padding-left: 5px; }
+.privacy-content a { border-bottom: 1px solid var(--terracotta); color: var(--terracotta); }
+.privacy-content strong { color: var(--ink); font-weight: 700; }
 .reveal { animation: reveal .8s both; }
 .reveal-delay { animation-delay: .16s; }
 @keyframes reveal { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
@@ -84,5 +96,6 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
   .section-heading { display: block; } .section-heading .section-index { margin-top: 32px; } .service-list { margin-top: 40px; } .service-item { gap: 13px; grid-template-columns: 30px 1fr 20px; } .service-item h3 { font-size: 24px; } .service-item p { font-size: 12px; }
   .process-grid { display: block; margin-top: 40px; } .process-grid article { margin-bottom: 37px; } .process-grid h3 { margin-top: 20px; }
   .contact { display: block; padding: 78px 6vw; } .contact .section-index { margin-bottom: 47px; } .contact .button { margin: 25px 0; } .contact-data { margin-top: 8px; }
+  .privacy-main { padding: 58px 6vw 84px; } .privacy-heading { padding-bottom: 50px; } .privacy-content { margin-top: 50px; } .privacy-content h2 { margin-top: 44px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 9px; padding: 25px 6vw; }
 }
