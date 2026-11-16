@@ -79,6 +79,8 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; }
 .privacy-content { margin: 70px auto 0; max-width: 760px; }
 .privacy-content h2 { font-size: clamp(1.75rem, 3vw, 2.45rem); margin: 58px 0 18px; }
 .privacy-content h2:first-of-type { margin-top: 0; }
+.privacy-content h3 { font-family: var(--serif); font-size: clamp(1.35rem, 2.2vw, 1.7rem); font-weight: 500; margin: 34px 0 12px; }
+.privacy-content h4 { font-size: 1rem; margin: 24px 0 10px; }
 .privacy-content p, .privacy-content li { color: #555850; font-size: 15px; }
 .privacy-content ul { padding-left: 22px; }
 .privacy-content li { margin-bottom: 9px; padding-left: 5px; }
